@@ -1,0 +1,10 @@
+Package: hotspomoments
+Type: Package
+Title: Statistical approaches to detecting ecosystem hot spots and hot moments
+Author: Jonathan Walter
+Maintainer: Jonathan Walter <jawalter@ucdavis.edu>
+Description: Tools for using the distributional properties of ecosystem measurements to detect hot spots and/or hot moments (HSHM).
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.2.0
+Version: 1.0.0
