@@ -26,6 +26,7 @@
 #' x1 <- rnorm(50)
 #' x1[rank(x2) >=45] <- x1[rank(x2) >= 45]*1.6 #create HSHM obs
 #' hshmobs <- hshmid(x1, criteria="ref.normal", side="upper", thresh=0.95)
+#' @export
 
 hshmid<-function(x, criteria, thresh, side=NULL){
   #Identify which observations constitute HSHM based on one of several criteria
